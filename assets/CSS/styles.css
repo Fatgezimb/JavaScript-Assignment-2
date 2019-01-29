@@ -1,0 +1,15 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+  body {
+    background-image: url(../images/128-184.jpg)
+  }
+  
+  button:hover {
+    border:2px solid blue;
+    background: pink;
+  }
