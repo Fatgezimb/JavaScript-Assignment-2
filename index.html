@@ -8,6 +8,12 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
+    <link
+      rel="shortcut icon"
+      href="https://img.icons8.com/color/48/000000/messi.png"
+      type="image/x-icon"
+    />
+
     <!-- reset CSS -->
     <link
       rel="stylesheet"
@@ -35,10 +41,14 @@
 
     <div class="jumbotron jumbotron-fluid text-center">
       <div class="container">
+        <img
+          class="Messi"
+          src="https://img.icons8.com/color/96/000000/messi.png"
+        />
         <h1 class="display-3">Press start game below</h1>
         <p class="lead">The game will ask you a series of triva questions</p>
         <hr class="my-2" />
-        <p>Good Luck</p>
+        <p>Good Luck you have 30 seconds per question</p>
         <p class="lead">
           <button
             class="btn btn-primary btn-lg"
@@ -51,18 +61,17 @@
       </div>
     </div>
 
+<!-- Questions will go here -->
 
+    <div id="questions">
 
-
-<!-- area where the jQuery magic happens -->
-    <div id="wrapper" class="text-center">
-      <div id="subwrapper"></div>
-      <div id="quiz-area"></div>
     </div>
 
-
-
-
+    <!-- area where the jQuery magic happens -->
+    <div class="text-center">
+      <div class="display-3" id ="time"> Time Left: <div id="timer"></div></div>
+      <div class="card-columns"></div>
+    </div>
 
     <!-- Footer with Copyright information -->
     <div class="fixed-bottom card text-center">
@@ -71,7 +80,12 @@
         <p class="card-text">Triva Game</p>
       </div>
       <div class="card-footer">
-        <i class="fa fa-copyright" aria-hidden="true"> Fatgezim Bela 2019</i>
+        <i class="fa fa-copyright" aria-hidden="true">
+          Fatgezim Bela 2019
+          <a class="messi" href="https://icons8.com/icon/36878/messi"
+            >Messi icon by Icons8</a
+          ></i
+        >
       </div>
     </div>
 
@@ -81,6 +95,7 @@
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
       crossorigin="anonymous"
     ></script>
+
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
       integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -91,6 +106,8 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.rawgit.com/nnattawat/flip/master/dist/jquery.flip.min.js"></script>
+
     <script type="text/javascript" src="assets/javascript/app.js"></script>
   </body>
 </html>
