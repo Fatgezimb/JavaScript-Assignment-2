@@ -13,10 +13,17 @@ body {
 
 button:hover {
   border: 2px solid blue;
-  background: pink;
+  background: lightblue;
+}
+button{
+  height: 3em;
+  width: 10em;
+  font-weight: 700;
 }
 
 .Messi {
 }
+
+
 
 
