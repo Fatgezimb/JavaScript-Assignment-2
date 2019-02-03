@@ -122,8 +122,8 @@ function showQuestions(list, num) {
 
 $("button").click(function (e) { 
   e.preventDefault();
-  console.log($("this").val())
   console.log("Button was clicked")
+  isCorrect(list, "need value")
 });
 
 
